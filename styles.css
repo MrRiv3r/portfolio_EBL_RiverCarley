@@ -4,7 +4,7 @@ body {
   body {
     color: #bdb1b1; /* Dark grey text */
   }
-  h1, h2, h3 {
+  h1, h2, h3, p {
     text-align: center;
   }
   h1 {
@@ -40,6 +40,21 @@ body {
     .grid-container4 {
         display: grid;
         grid-template-columns: repeat(4, minmax(10vw, 1fr)); /* Flexible columns */
+        grid-template-rows: auto; /* Rows will adjust based on content */
+      }
+      .grid-container5 {
+        display: grid;
+        grid-template-columns: repeat(5, minmax(10vw, 1fr)); /* Flexible columns */
+        grid-template-rows: auto; /* Rows will adjust based on content */
+      }
+      .grid-container6 {
+        display: grid;
+        grid-template-columns: repeat(6, minmax(10vw, 1fr)); /* Flexible columns */
+        grid-template-rows: auto; /* Rows will adjust based on content */
+      }
+      .grid-container7 {
+        display: grid;
+        grid-template-columns: repeat(7, minmax(10vw, 1fr)); /* Flexible columns */
         grid-template-rows: auto; /* Rows will adjust based on content */
       }
     .grid-container2 {
