@@ -57,6 +57,11 @@ body {
         grid-template-columns: repeat(7, minmax(10vw, 1fr)); /* Flexible columns */
         grid-template-rows: auto; /* Rows will adjust based on content */
       }
+       .grid-container8 {
+        display: grid;
+        grid-template-columns: repeat(8, minmax(10vw, 1fr)); /* Flexible columns */
+        grid-template-rows: auto; /* Rows will adjust based on content */
+      }
     .grid-container2 {
       display: grid;
       grid-template-columns: repeat(2, minmax(13.33vw, 1fr)); /* Flexible columns */
